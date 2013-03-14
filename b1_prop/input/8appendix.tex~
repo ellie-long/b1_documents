@@ -1,0 +1,110 @@
+\appendix
+
+\section{Possible measurement in Hall A with the SOLID spectrometer}
+
+Following Ref.~\cite{Hoodbhoy:1988am} it is possible to measure the asymmetry $A_{zz}$ by 
+taking the difference of parallel and perpendicular cross sections with unpolarized beam:
+\begin{eqnarray}
+\frac{\frac{d^2\sigma_{\parallel}}{d\Omega dE'} - \frac{d^2\sigma_{\perp}}{d\Omega dE'}}
+{\frac{d^2\sigma_{\parallel}}{d\Omega dE'} + 2 \frac{d^2\sigma_{\perp}}{d\Omega dE'}} = 
+- \frac{1}{2} (1 - \frac{3}{2} H^2) A_{zz},
+\label{para-perp}
+\end{eqnarray}
+%
+where $H^2=(P+2)/3$ is the target spin projection along the beam and $P$ is the target polarization.
+The polarized cross sections $d^2\sigma_{\parallel}/d\Omega dE'$ and $d^2\sigma_{\perp}/d\Omega dE'$ 
+can be extracted from data collected by scattering an unpolarized electron beam off a spin-1 target 
+polarized longitudinally and perpendicularly to the electron beam direction. The tensor structure
+function is then extracted using Eq.~\ref{Azz}.
+
+
+From Eq.~\ref{para-perp}, the beam time needed to achieve an absolute uncertainty 
+of $\delta A_{zz}$ can be deduced and is expressed as follows:
+\begin{eqnarray}
+T = \frac{32}{9 P_{zz}^2} \frac{1}{R_D~f~(P_{zz}~\delta A_{zz})^2}
+\label{time-eq2}
+\end{eqnarray}
+
+with $R_D$ is the deuteron rate, $f$ the dilution factor and $P_{zz}$ the tensor polarization.
+
+We evaluated the possible measurement of the tensor structure function $b_1$ through the asymmetry 
+method. We took the rates from the Hall C HMS and scaled them to the SOLID acceptance 
+$\Delta \Omega = 1.43$ sr. Fig.~\ref{kincovsolid} shows the kinematic coverage considered.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.6\textwidth]{figs/solid/cov_solid.eps}
+\caption{\label{kincovsolid} Kinematic coverage for 11 GeV beam in Hall C using the HMS and SHMS.}
+\end{center}
+\end{figure}
+
+Again the polarized target considered in this letter-of-intent is the solid lithium deuteride (LiD) but
+due to the significant increase of the rates ND$_3$ could also be used. 
+The vector polarization, packing fraction and dilution used in the estimate of the rates are 55\%, 0.55 
+and 0.50 respectively. With an incident electron beam current of 100 nA, the expected deuteron luminosity 
+is $2\times 10^{35}$ cm$^{-2}$s$^{-1}$. The kinematics, rates, projected 
+statistical uncertainties of $A_{zz}$ and $b_1$ along with the time necessary to achieve this
+precision are summarized in Table~\ref{solidRATES}. The projected uncertainties are displayed in 
+Fig.~\ref{solidPROJ}. Only rates with kinematics coverage of $W \ge 2.0$ GeV were computed.
+
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.45\textwidth]{figs/solid/Azz_proj_lin_good.eps}
+\hspace{0.5cm}
+\includegraphics[width=0.45\textwidth]{figs/solid/xb1_proj_newmiller_lin_good.eps}
+\caption{\label{solidPROJ}
+{\bf Left: }
+Projected precision of the tensor asymmetry $A_{zz}$ with 30 days of beam time. Also 
+shown are the data from Hermes\cite{Airapetian:2005cb} and the calculation from Kumano~\cite{Kumano:2010vz}
+{\bf Right:} Corresponding projected precision of the tensor structure function $b_1$. In addition,
+an updated calculation of Ref.~\cite{Miller:1989nc} from Miller is shown~\cite{Miller_tmp}.}
+\end{center}
+\end{figure}
+\vspace{0.5cm}
+So 30 days of beam time is needed for production data. This time will be split equally
+between parallel and perpendicular running. Five additional days will be needed for 
+calibration, background study and configuration changes.
+
+\subsection{Experimental Method}
+Following Ref.~\cite{Hoodbhoy:1988am} it is possible to measure the asymmetry $A_{zz}$ by 
+taking the difference of parallel and perpendicular cross sections with unpolarized beam:
+\begin{eqnarray}
+\frac{\frac{d^2\sigma_{\parallel}}{d\Omega dE'} - \frac{d^2\sigma_{\perp}}{d\Omega dE'}}
+{\frac{d^2\sigma_{\parallel}}{d\Omega dE'} + 2 \frac{d^2\sigma_{\perp}}{d\Omega dE'}} = - \frac{1}{2} (1 - \frac{3}{2} H^2) A_{zz},
+\label{para-perp}
+\end{eqnarray}
+%
+where $H^2=(P+2)/3$ is the target spin projection along the beam and $P$ is the target polarization.
+The polarized cross sections $d^2\sigma_{\parallel}/d\Omega dE'$ and $d^2\sigma_{\perp}/d\Omega dE'$ 
+can be extracted from data collected by scattering an unpolarized electron beam off a spin-1 target 
+polarized longitudinally and perpendicularly to the electron beam direction. The tensor structure
+function is then extracted using Eq.~\ref{Azz}.
+
+
+From Eq.~\ref{para-perp}, the beam time needed to achieve an absolute uncertainty 
+of $\delta A_{zz}$ can be deduced and is expressed as follows:
+\begin{eqnarray}
+T = \frac{32}{9 P_{zz}^2} \frac{1}{R_D~f~(P_{zz}~\delta A_{zz})^2}
+\label{time-eq2}
+\end{eqnarray}
+
+with $R_D$ is the deuteron rate, $f$ the dilution factor and $P_{zz}$ the tensor polarization.
+
+\begin{table}
+\begin{center}
+\caption{\label{solidRATES}Summary of the kinematics and rates}
+\begin{tabular}{|ccc|cc|c|cc|cc|c|}\hline
+ $<x>$  & $<Q^2>$      &  $<W>$  &    $P_0$    &    $\theta$  &  Rates & $A_{zz}$ & $\delta A_{zz}^{stat}$    & $b_1$  & $\delta b_1^{stat}$ & time   \\
+  ~     & (GeV)$^2$  & (GeV) & (GeV)  &     (deg.)  &   (Hz)  & $\times 10^{-2}$ & $\times 10^{-2}$ &  $\times 10^{-2}$ & $\times 10^{-2}$    & (hours) \\
+
+\hline\hline
+0.15  &  1.5   &  3.1  &  5.91  &   8.7 &  40  & -0.51 &  0.23 &  0.72 & -0.32 & 358 \\
+0.25  &  2.0   &  2.6  &  6.93  &   9.3 &  39  &  0.19 &  0.19 & -0.16 & -0.16 & 550 \\
+0.35  &  2.0   &  2.2  &  8.09  &   8.6 &  54  &  0.75 &  0.22 & -0.38 & -0.11 & 281 \\
+\hline\hline
+0.45  &  3.5   &  2.3  &  7.04  &  12.2 &  7.3 &  1.2  &  0.42 & -0.31 & -0.11 & 587 \\
+0.55  &  4.2   &  2.1  &  7.11  &  13.3 &  3.3 &  1.6  &  0.62 & -0.19 & -0.075 & 597 \\
+\hline\hline
+\end{tabular}
+\end{center}
+\end{table}

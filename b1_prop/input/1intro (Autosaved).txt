@@ -1,0 +1,20 @@
+
+Spin structure functions are fascinating and this is the most fascinating discussion of them yet.
+
+In this case, the familiar structure functions  $F_1$, $F_2$, $g_1$, and $g_2$ which describe 
+inclusive scattering of electrons from spin-1/2 targets, must be supplemented for a spin-1 system 
+by four additional structure functions : $b_1$, $b_2$, $b_3$, and $\Delta$.
+
+The deuteron is the simplest many-body nuclear system.
+
+The tensor structure function $b_1$, ( which is leading-twist like  $F_1$ and $g_1$), is quite 
+interesting, in that it presents a simple gauge of nuclear effects: $b_1$ would vanish if the 
+deuteron was simply a proton and neutron in a relative S state.
+
+Nuclear effects: When spin physics joins naturally the nuclear effects area É
+Nuclear effects extortion
+
+
+Beyond providing insight into nuclear structure, this has the potential to impact $g_1^n$ and 
+$g_2^n$ extractions, where $b_1$ has traditionally been ignored when the neutron is extracted 
+from deuteron data.

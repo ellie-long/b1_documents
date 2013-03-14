@@ -1,0 +1,175 @@
+%\documentstyle[11pt,epsfig,longtable,fontenc,graphicx,times,rotating,psfrag,graphics,lscape,cite]{article}
+
+
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage{epsfig}
+\usepackage{longtable}
+\usepackage{fontenc}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{rotating}
+\usepackage{psfrag}
+\usepackage{graphics}
+\usepackage{lscape}
+%\usepackage{overcite}
+%\usepackage{cite}
+%\usepackage[sort&compress]{natbib}
+%\bibpunct{[}{]}{,}{a}{}{;}
+\makeatletter
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\newcommand{\boldsymbol}[1]{\mbox{\boldmath $#1$}}
+
+\makeatother
+
+\def\be{\begin{eqnarray*}}
+\def\ee{\end{eqnarray*}}
+\def\bn{\begin{eqnarray}}
+\def\en{\end{eqnarray}}
+\def\nn{\nonumber}
+%\def\ks{\vspace{0.65cm}\\}
+%\def\ls{\vspace{0.1cm}}
+%\def\ks{\vspace{0.77cm}\\}
+%\def\ls{\vspace{0.15cm}}
+%\def\ks{\vspace{0.9cm}\\}
+%\def\ls{\vspace{0.15cm}}
+\def\ks{\vspace{0.4cm}\\}
+\def\ls{\vspace{0.0cm}}
+
+\def\n{\large}
+\bibliographystyle{input/prsty.bst}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\pagestyle{empty}
+ 
+\begin{center}
+ \LARGE{
+  The Deuteron Tensor Structure Function $b_1$
+ }
+\end{center}
+%
+\hrule \vspace{.05cm}\hrule
+%
+\begin{center}
+(A Letter-of-Intent to Jefferson Lab PAC-37)
+
+\vspace{1.5cm}
+\input{input/author.tex}
+%and
+%\ks
+%\Large{\bf{The Jefferson Lab Hall X Collaboration}}
+\end{center}
+
+
+%\newpage
+\footnotetext{Contact person: solvigno@jlab.org}
+\newpage
+\begin{abstract}
+  \input{input/abstract.tex}
+\end{abstract}
+
+
+
+\newpage
+%\input{input/0foreword.tex}
+
+\newpage
+  \scriptsize
+  %\footnotesize
+  \tableofcontents
+  \normalsize
+\newpage
+
+
+\pagestyle{plain}
+
+
+\normalsize
+%\large
+
+%\section{Introduction}
+%  \input{input/1intro.tex}
+
+\clearpage
+%\section{Motivations}
+\section{Tensor Structure Functions}
+The tensor polarized structure of the deuteron was first discussed for the real photon case
+by Pais~\cite{Pais:1967zz} in 1967 and later, in the virtual photon case, by Frankfurt and
+Strikman~\cite{Frankfurt:1983qs}. In 1988, Hoodbhoy, Jaffe and Manohar~\cite{Hoodbhoy:1988am}
+introduced the notation which we follow in this letter, whereby the tensor structure is described
+by the four functions $b_1$, $b_2$, $b_3$ and $b_4$.  
+
+%\subsection{Tensor Structure Functions}
+  \input{input/1_b1.tex}
+
+\subsection{Further Theoretical Interpretations}
+  \input{input/1_th_predictions.tex}
+
+%\subsection{Spin Sum Rules and Moments}
+
+\clearpage
+\section{Existing Data}
+ \input{input/data.tex}
+  
+\clearpage
+\section{The Proposed Experiment}
+\input{input/2exp_overview.tex}
+%\input{input/3intrumentation.tex}
+\input{input/4target.tex}
+
+
+%\clearpage
+%\section{Analysis Method}
+%\setcounter{footnote}{1}
+%\input{input/5method.tex}
+
+%\section{Rates and Beam Time Request}
+%\input{input/6rates_request.tex}
+
+
+\section{Summary}
+  \input{input/7summary.tex}
+\clearpage
+\input{input/8appendix.tex}
+%\appendix
+%\section{Beam Time Request Tables}
+%\label{BTRSECTION}
+%In this section we detail the proposed kinematics and beam time request.
+%In Table~\ref{RATES}, all energies and momenta are in GeV, while 
+%the luminosity is given in (cm$^2$-s)$^{-1}$.
+ 
+%Table~\ref{OVERHEAD} summarizes the expected overhead, which was discussed
+%in section~\ref{OVERHEAD_SEC}. The expected statistical error is given
+%in Table~\ref{STATERR}.  Table~\ref{RATES} specifies whether we will measure data in the
+%parallel configuration alone, or in both perpendicular and parallel configuration for each kinematic.
+%Finally, for reference, in Table~\ref{PARAMS} we list the relevent experimental parameters that
+%we have assumed in the rate calculation.
+\scriptsize
+%\footnotesize
+%\small
+%\normalsize
+%\input{input/table.tex}
+\normalsize
+
+%  Go to fullpage mode
+
+\topmargin 0pt
+\advance \topmargin by -\headheight
+\advance \topmargin by -\headsep
+
+\textheight 8.9in
+
+\oddsidemargin 0pt
+\evensidemargin \oddsidemargin
+\marginparwidth 0.5in
+
+\textwidth 6.5in
+\clearpage
+%\begin{thebibliography}{99}
+%\input{input/bib.tex}
+%\end{thebibliography}
+
+ \bibliography{tensor_b1}
+\end{document}
