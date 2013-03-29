@@ -1,0 +1,14 @@
+#!/bin/sh
+FILE=tensor_b1
+
+latex ${FILE}
+bibtex ${FILE}
+latex ${FILE}
+latex ${FILE}
+#dvipdf ${FILE}.dvi
+dvips -t letter -Ppdf ${FILE}.dvi -o
+ps2pdf ${FILE}.ps
+rm ${FILE}.log ${FILE}.dvi ${FILE}.aux ${FILE}.toc ${FILE}.ps
+rm ${FILE}.bbl ${FILE}.blg
+
+open ${FILE}.pdf
